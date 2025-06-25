@@ -1,5 +1,7 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import authReducer from "@/features/auth/authSlice";
+import themeReducer from "@/features/theme/themeSlice";
+import favouritePokemonReducer from "@/features/favourite-pokemon/favouritePokemonSlice";
 import {
   persistStore,
   persistReducer,
@@ -20,6 +22,22 @@ const rootReducer = combineReducers({
       whitelist: ["user"], // only persist `user`
     },
     authReducer,
+  ),
+  theme: persistReducer(
+    {
+      key: "theme",
+      storage: AsyncStorage,
+      whitelist: ["theme"], // only persist `user`
+    },
+    themeReducer,
+  ),
+  favouritesPokemon: persistReducer(
+    {
+      key: "favouritesPokemon",
+      storage: AsyncStorage,
+      whitelist: ["favourites"], // only persist `user`
+    },
+    favouritePokemonReducer,
   ),
 });
 

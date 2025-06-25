@@ -1,29 +1,31 @@
 import { AppTheme } from "@/types/AppTheme.type";
 import { Platform } from "react-native";
 
-// Pokémon blue, yellow, red inspired palette
-const POKEMON_BLUE = "rgb(55, 105, 230)";
-const POKEMON_YELLOW = "rgb(255, 213, 0)";
-const POKEMON_RED = "rgb(255, 66, 66)";
-const BACKGROUND_LIGHT = "rgb(245, 245, 245)";
-const CARD_LIGHT = "rgb(255, 255, 255)";
-const TEXT_LIGHT = "rgb(34, 34, 34)";
-const BORDER_LIGHT = "rgb(222, 222, 222)";
+// Pokémon blue, yellow, rgb(255, 0, 0) inspired palette
+const POKEMON_PURPLE = "#4E2A84"; // Gengar's purple (retained)
+const POKEMON_YELLOW = "rgb(255, 213, 0)"; // Pikachu yellow
+const POKEMON_RED = "rgb(255, 66, 66)"; // Charizard/alert red
+const POKEMON_PINK = "#D66AC0"; // Gengar eye-inspired pinkish highlight
 
-const BACKGROUND_DARK = "rgb(18, 18, 18)";
-const CARD_DARK = "rgb(28, 28, 30)";
-const TEXT_DARK = "rgb(235, 235, 235)";
-const BORDER_DARK = "rgb(60, 60, 60)";
+const BACKGROUND_LIGHT = "#F5F5FA"; // Slightly tinted from plain white
+const CARD_LIGHT = "#FFFFFF";
+const TEXT_LIGHT = "#2C1A3E"; // Deeper purple for Gengar mood
+const BORDER_LIGHT = "#DDD6EB"; // Muted purple border
+
+const BACKGROUND_DARK = "#1C102D"; // Gengar night mode
+const CARD_DARK = "#301848";
+const TEXT_DARK = "#FFFFFF";
+const BORDER_DARK = "#4E2A84";
 
 export const AppLightTheme: AppTheme = {
   dark: false,
   colors: {
-    primary: POKEMON_BLUE,
+    primary: POKEMON_PURPLE,
     background: BACKGROUND_LIGHT,
     card: CARD_LIGHT,
     text: TEXT_LIGHT,
     border: BORDER_LIGHT,
-    notification: POKEMON_YELLOW,
+    notification: POKEMON_PINK,
     error: POKEMON_RED,
   },
   fonts: Platform.select({
@@ -56,12 +58,12 @@ export const AppLightTheme: AppTheme = {
 export const AppDarkTheme: AppTheme = {
   dark: true,
   colors: {
-    primary: POKEMON_BLUE,
+    primary: POKEMON_PURPLE,
     background: BACKGROUND_DARK,
     card: CARD_DARK,
     text: TEXT_DARK,
     border: BORDER_DARK,
-    notification: POKEMON_YELLOW,
+    notification: POKEMON_PINK,
     error: POKEMON_RED,
   },
   fonts: Platform.select({

@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065A31662FCD98D572537106 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7D00C9F4C906D4ACBEC90953 /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		172AEB83D4FC292BBFC7A626 /* libPods-pokemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B74B3910BDDABF53053B86 /* libPods-pokemon.a */; };
+		344E2F4CA43D4650AE5C6A00 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE48897C94DD4BDB815D16DE /* Montserrat-Regular.ttf */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		51501BCF1CF64247B470A3FB /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9DFEE6757743FA849B3F40 /* Fredoka-Bold.ttf */; };
-		79553335D85640C5B223CF57 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4388BCB89CD4181A1115B4B /* Montserrat-Bold.ttf */; };
-		A6CF7301581F077E4C498274 /* libPods-pokemontcg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C858B9909CAE79A945D5AD87 /* libPods-pokemontcg.a */; };
+		412B5A3B7A68429A9BB0F5F1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72561CEAD6F448FB9A1565E9 /* Montserrat-Bold.ttf */; };
+		4A6324D404174B99B27EB1E9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F391C5CEFF5B42B09E993CB3 /* Montserrat-Medium.ttf */; };
+		577DEECAB2B54610957B1FFB /* Fredoka-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E50D97C2B24E5DA4F99DC7 /* Fredoka-Bold.ttf */; };
+		721D6C4D29B51352E4D17415 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ED2E06386E361E1B774441 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C4C1D0D40C704BFFA31D3138 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA53D08748A4AA389DFC1B1 /* Montserrat-Regular.ttf */; };
-		EB21F2D31AC19E2CA8CC85C6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 35820603E561D42AFF938413 /* PrivacyInfo.xcprivacy */; };
-		EB342703751B47DCB65267E0 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18634EA49F054C02B61507B4 /* Montserrat-Medium.ttf */; };
-		EE39CB9D20A31C6BD36C6085 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B608C431DBC78C4168269 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		112B608C431DBC78C4168269 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-pokemontcg/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* pokemontcg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemontcg.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pokemontcg/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pokemontcg/Info.plist; sourceTree = "<group>"; };
-		160DDC2657C6A99EF4D16C6C /* Pods-pokemontcg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemontcg.release.xcconfig"; path = "Target Support Files/Pods-pokemontcg/Pods-pokemontcg.release.xcconfig"; sourceTree = "<group>"; };
-		18634EA49F054C02B61507B4 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		2AA53D08748A4AA389DFC1B1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		35820603E561D42AFF938413 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = pokemontcg/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5B9DFEE6757743FA849B3F40 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Fredoka-Bold.ttf"; path = "../assets/fonts/Fredoka-Bold.ttf"; sourceTree = "<group>"; };
-		63DE98F6618DA531C90331D8 /* Pods-pokemontcg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemontcg.debug.xcconfig"; path = "Target Support Files/Pods-pokemontcg/Pods-pokemontcg.debug.xcconfig"; sourceTree = "<group>"; };
-		A4388BCB89CD4181A1115B4B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = pokemontcg/SplashScreen.storyboard; sourceTree = "<group>"; };
+		0F07D04C34374DB9CCBE0EF3 /* Pods-pokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon.debug.xcconfig"; path = "Target Support Files/Pods-pokemon/Pods-pokemon.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pokemon/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pokemon/Info.plist; sourceTree = "<group>"; };
+		61E50D97C2B24E5DA4F99DC7 /* Fredoka-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fredoka-Bold.ttf"; path = "../assets/fonts/Fredoka-Bold.ttf"; sourceTree = "<group>"; };
+		72561CEAD6F448FB9A1565E9 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		7D00C9F4C906D4ACBEC90953 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = pokemon/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		97ED2E06386E361E1B774441 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-pokemon/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = pokemon/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C858B9909CAE79A945D5AD87 /* libPods-pokemontcg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pokemontcg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF64147706D1B74538F9FDF2 /* Pods-pokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemon.release.xcconfig"; path = "Target Support Files/Pods-pokemon/Pods-pokemon.release.xcconfig"; sourceTree = "<group>"; };
+		E1B74B3910BDDABF53053B86 /* libPods-pokemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pokemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = pokemontcg/AppDelegate.swift; sourceTree = "<group>"; };
-		F11748442D0722820044C1D9 /* pokemontcg-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pokemontcg-Bridging-Header.h"; path = "pokemontcg/pokemontcg-Bridging-Header.h"; sourceTree = "<group>"; };
+		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = pokemon/AppDelegate.swift; sourceTree = "<group>"; };
+		F11748442D0722820044C1D9 /* pokemon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pokemon-Bridging-Header.h"; path = "pokemon/pokemon-Bridging-Header.h"; sourceTree = "<group>"; };
+		F391C5CEFF5B42B09E993CB3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		FE48897C94DD4BDB815D16DE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,42 +45,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6CF7301581F077E4C498274 /* libPods-pokemontcg.a in Frameworks */,
+				172AEB83D4FC292BBFC7A626 /* libPods-pokemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* pokemontcg */ = {
+		13B07FAE1A68108700A75B9A /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
-				F11748442D0722820044C1D9 /* pokemontcg-Bridging-Header.h */,
+				F11748442D0722820044C1D9 /* pokemon-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				35820603E561D42AFF938413 /* PrivacyInfo.xcprivacy */,
+				7D00C9F4C906D4ACBEC90953 /* PrivacyInfo.xcprivacy */,
 			);
-			name = pokemontcg;
+			name = pokemon;
+			sourceTree = "<group>";
+		};
+		1A5957B97E060C7DFD719481 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				775D9C9E2B9EB2E373744358 /* pokemon */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				C858B9909CAE79A945D5AD87 /* libPods-pokemontcg.a */,
+				E1B74B3910BDDABF53053B86 /* libPods-pokemon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		605FFA6D142FA2E785C43348 /* ExpoModulesProviders */ = {
+		616400A666D544FBB12F35FF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE37CB3ED2FAD6B9125FAD0F /* pokemontcg */,
+				61E50D97C2B24E5DA4F99DC7 /* Fredoka-Bold.ttf */,
+				FE48897C94DD4BDB815D16DE /* Montserrat-Regular.ttf */,
+				F391C5CEFF5B42B09E993CB3 /* Montserrat-Medium.ttf */,
+				72561CEAD6F448FB9A1565E9 /* Montserrat-Bold.ttf */,
 			);
-			name = ExpoModulesProviders;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		775D9C9E2B9EB2E373744358 /* pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				97ED2E06386E361E1B774441 /* ExpoModulesProvider.swift */,
+			);
+			name = pokemon;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -93,13 +112,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* pokemontcg */,
+				13B07FAE1A68108700A75B9A /* pokemon */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				F726658A23F44A3F90C15DDA /* Resources */,
-				BB0445F41B1A2E9DE73493A8 /* Pods */,
-				605FFA6D142FA2E785C43348 /* ExpoModulesProviders */,
+				616400A666D544FBB12F35FF /* Resources */,
+				B0254ABF0C908AAA3995DE30 /* Pods */,
+				1A5957B97E060C7DFD719481 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -109,18 +128,17 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* pokemontcg.app */,
+				13B07F961A680F5B00A75B9A /* pokemon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB0445F41B1A2E9DE73493A8 /* Pods */ = {
+		B0254ABF0C908AAA3995DE30 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63DE98F6618DA531C90331D8 /* Pods-pokemontcg.debug.xcconfig */,
-				160DDC2657C6A99EF4D16C6C /* Pods-pokemontcg.release.xcconfig */,
+				0F07D04C34374DB9CCBE0EF3 /* Pods-pokemon.debug.xcconfig */,
+				DF64147706D1B74538F9FDF2 /* Pods-pokemon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,52 +148,32 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = pokemontcg/Supporting;
-			sourceTree = "<group>";
-		};
-		CE37CB3ED2FAD6B9125FAD0F /* pokemontcg */ = {
-			isa = PBXGroup;
-			children = (
-				112B608C431DBC78C4168269 /* ExpoModulesProvider.swift */,
-			);
-			name = pokemontcg;
-			sourceTree = "<group>";
-		};
-		F726658A23F44A3F90C15DDA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5B9DFEE6757743FA849B3F40 /* Fredoka-Bold.ttf */,
-				2AA53D08748A4AA389DFC1B1 /* Montserrat-Regular.ttf */,
-				18634EA49F054C02B61507B4 /* Montserrat-Medium.ttf */,
-				A4388BCB89CD4181A1115B4B /* Montserrat-Bold.ttf */,
-			);
-			name = Resources;
-			path = "";
+			path = pokemon/Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* pokemontcg */ = {
+		13B07F861A680F5B00A75B9A /* pokemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pokemontcg" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pokemon" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				BD503A1C7F3AA665CCEA5044 /* [Expo] Configure project */,
+				669BF30E4353832B175FC71B /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				AC4C0E8EC2E75A2F6C742FED /* [CP] Embed Pods Frameworks */,
+				EA65F7528C9AC21B23B9EF4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = pokemontcg;
-			productName = pokemontcg;
-			productReference = 13B07F961A680F5B00A75B9A /* pokemontcg.app */;
+			name = pokemon;
+			productName = pokemon;
+			productReference = 13B07F961A680F5B00A75B9A /* pokemon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -191,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pokemontcg" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pokemon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -204,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* pokemontcg */,
+				13B07F861A680F5B00A75B9A /* pokemon */,
 			);
 		};
 /* End PBXProject section */
@@ -217,11 +215,11 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				51501BCF1CF64247B470A3FB /* Fredoka-Bold.ttf in Resources */,
-				C4C1D0D40C704BFFA31D3138 /* Montserrat-Regular.ttf in Resources */,
-				EB342703751B47DCB65267E0 /* Montserrat-Medium.ttf in Resources */,
-				79553335D85640C5B223CF57 /* Montserrat-Bold.ttf in Resources */,
-				EB21F2D31AC19E2CA8CC85C6 /* PrivacyInfo.xcprivacy in Resources */,
+				577DEECAB2B54610957B1FFB /* Fredoka-Bold.ttf in Resources */,
+				344E2F4CA43D4650AE5C6A00 /* Montserrat-Regular.ttf in Resources */,
+				4A6324D404174B99B27EB1E9 /* Montserrat-Medium.ttf in Resources */,
+				412B5A3B7A68429A9BB0F5F1 /* Montserrat-Bold.ttf in Resources */,
+				065A31662FCD98D572537106 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +256,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-pokemontcg-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pokemon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		669BF30E4353832B175FC71B /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-pokemon/expo-configure-project.sh\"\n";
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -271,7 +288,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pokemontcg/Pods-pokemontcg-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-pokemon/Pods-pokemon-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
@@ -298,16 +315,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokemontcg/Pods-pokemontcg-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokemon/Pods-pokemon-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC4C0E8EC2E75A2F6C742FED /* [CP] Embed Pods Frameworks */ = {
+		EA65F7528C9AC21B23B9EF4F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-pokemontcg/Pods-pokemontcg-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-pokemon/Pods-pokemon-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -316,27 +333,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokemontcg/Pods-pokemontcg-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokemon/Pods-pokemon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		BD503A1C7F3AA665CCEA5044 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-pokemontcg/expo-configure-project.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -346,7 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				EE39CB9D20A31C6BD36C6085 /* ExpoModulesProvider.swift in Sources */,
+				721D6C4D29B51352E4D17415 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,18 +353,19 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63DE98F6618DA531C90331D8 /* Pods-pokemontcg.debug.xcconfig */;
+			baseConfigurationReference = 0F07D04C34374DB9CCBE0EF3 /* Pods-pokemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = pokemontcg/pokemontcg.entitlements;
+				CODE_SIGN_ENTITLEMENTS = pokemon/pokemon.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZDVZ8G75G;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = pokemontcg/Info.plist;
+				INFOPLIST_FILE = pokemon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,8 +379,8 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.pokemontcg;
-				PRODUCT_NAME = "pokemontcg";
-				SWIFT_OBJC_BRIDGING_HEADER = "pokemontcg/pokemontcg-Bridging-Header.h";
+				PRODUCT_NAME = pokemon;
+				SWIFT_OBJC_BRIDGING_HEADER = "pokemon/pokemon-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,13 +390,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 160DDC2657C6A99EF4D16C6C /* Pods-pokemontcg.release.xcconfig */;
+			baseConfigurationReference = DF64147706D1B74538F9FDF2 /* Pods-pokemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = pokemontcg/pokemontcg.entitlements;
+				CODE_SIGN_ENTITLEMENTS = pokemon/pokemon.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = pokemontcg/Info.plist;
+				DEVELOPMENT_TEAM = 2ZDVZ8G75G;
+				INFOPLIST_FILE = pokemon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,8 +411,8 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.pokemontcg;
-				PRODUCT_NAME = "pokemontcg";
-				SWIFT_OBJC_BRIDGING_HEADER = "pokemontcg/pokemontcg-Bridging-Header.h";
+				PRODUCT_NAME = pokemon;
+				SWIFT_OBJC_BRIDGING_HEADER = "pokemon/pokemon-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -474,10 +474,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -532,10 +529,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -546,7 +540,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pokemontcg" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -555,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pokemontcg" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
