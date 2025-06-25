@@ -1,4 +1,4 @@
-# [Project Name]
+# POKEMON TCG
 
 ## Quick Setup
 
